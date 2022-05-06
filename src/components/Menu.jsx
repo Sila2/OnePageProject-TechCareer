@@ -20,13 +20,13 @@ const Menu8 = '/img/menu/8.png'
 
 
 export default class Menu extends Component {
-    constructor(props){
-        super(props);
-      }
+    // constructor(props){
+    //     super(props);
+    //   }
 
-      addButton(){
+    //   addButton(){
           
-      }
+    //   }
 
     
   render() {
@@ -38,16 +38,16 @@ export default class Menu extends Component {
         <img src={Menu1} alt="img01"/>
         <figcaption>
             <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
-            {/* <a href={Menu1} title="1" data-gallery>Sepete Ekle</a></p>  */}
-            <button className="btn btn-outline-secondary" onClick={this.addButton}>Sepete Ekle</button>          
+            <p>Lorem ipsum dolor sit amet.<br/>
+            <a href={Menu1} title="1" data-gallery>Sepete Ekle</a> </p>
+            {/* <button className="btn btn-outline-secondary" onClick={this.addButton}>Sepete Ekle</button>           */}
         </figcaption>
     </figure>
      <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu2} alt="img01"/>
         <figcaption>
             <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
+            <p>Lorem ipsum dolor sit amet.<br/>
             <a href={Menu2} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
@@ -55,7 +55,7 @@ export default class Menu extends Component {
         <img src={Menu3} alt="img01"/>
         <figcaption>
             <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
+            <p>Lorem ipsum dolor sit amet.<br/>
             <a href={Menu3} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
@@ -63,7 +63,7 @@ export default class Menu extends Component {
         <img src={Menu4} alt="img01"/>
         <figcaption>
             <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
+            <p>Lorem ipsum dolor sit amet.<br/>
             <a href={Menu4} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
@@ -71,7 +71,7 @@ export default class Menu extends Component {
         <img src={Menu5} alt="img01"/>
         <figcaption>
             <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
+            <p>Lorem ipsum dolor sit amet.<br/>
             <a href={Menu5} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
@@ -80,23 +80,23 @@ export default class Menu extends Component {
         <img src={Menu6} alt="img01"/>
         <figcaption>
             <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
+            <p>Lorem ipsum dolor sit amet.<br/>
             <a href={Menu6} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
     <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu7} alt="img01"/>
         <figcaption>
-            <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
+            <h2>Nuggets</h2>
+            <p>Lorem ipsum dolor sit amet.<br/>
             <a href={Menu7} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
     <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu8} alt="img01"/>
         <figcaption>
-            <h2>Hamburger</h2>
-            <p>Lily likes to play with crayons and pencils<br/>
+            <h2>Soğan Halkası</h2>
+            <p>Lorem ipsum dolor sit amet.<br/>
             <a href={Menu8} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
