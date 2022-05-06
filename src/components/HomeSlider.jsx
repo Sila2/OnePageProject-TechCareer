@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
-import Back1 from '../../public/img/homeSlider/back1.png';
-import Back2 from '../../public/img/homeSlider/back2.png';
-import Back3 from '../../public/img/homeSlider/back3.png';
-import Back4 from '../../public/img/homeSlider/back4.png';
-import Logo3 from '../../public/img/logobig.png';
+// import Back1 from '../../public/img/homeSlider/back1.png';
+// import Back2 from '../../public/img/homeSlider/back2.png';
+// import Back3 from '../../public/img/homeSlider/back3.png';
+// import Back4 from '../../public/img/homeSlider/back4.png';
+// import Logo3 from '../../public/img/logobig.png';
+
+const Back1 = '/img/homeSlider/back1.png';
+const Back2 = '/img/homeSlider/back2.png';
+const Back3 = '/img/homeSlider/back3.png';
+const Back4 = '/img/homeSlider/back4.png';
+const Logo3 = '/img/logobig.png';
 
 
 export default class HomeSlider extends Component {

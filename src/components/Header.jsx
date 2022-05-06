@@ -1,7 +1,8 @@
 import React from 'react';
-import Logo from '../../public/img/logo.png';
+// import Logo from '../../public/img/logo.png';
 
-//const myimg= './logo192.png';
+const Logo = '/img/logo.png';
+
 export default function Header() {
     
   return (

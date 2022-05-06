@@ -1,12 +1,20 @@
 
 import React from 'react';
-import Cutomer1 from '../../public/img/customer/customer/1.png';
-import Cutomer2 from '../../public/img/customer/customer/2.png';
-import Cutomer3 from '../../public/img/customer/customer/3.png';
-import Partner1 from '../../public/img/customer/partner/1.png';
-import Partner2 from '../../public/img/customer/partner/2.png';
-import Partner3 from '../../public/img/customer/partner/3.png';
-import Partner4 from '../../public/img/customer/partner/4.png';
+// import Cutomer1 from '../../public/img/customer/customer/1.png';
+// import Cutomer2 from '../../public/img/customer/customer/2.png';
+// import Cutomer3 from '../../public/img/customer/customer/3.png';
+// import Partner1 from '../../public/img/customer/partner/1.png';
+// import Partner2 from '../../public/img/customer/partner/2.png';
+// import Partner3 from '../../public/img/customer/partner/3.png';
+// import Partner4 from '../../public/img/customer/partner/4.png';
+
+const Cutomer1 = '/img/customer/customer/1.png';
+const Cutomer2 = '/img/customer/customer/2.png';
+const Cutomer3 = '/img/customer/customer/3.png';
+const Partner1 = '/img/customer/partner/1.png';
+const Partner2 = '/img/customer/partner/2.png';
+const Partner3 = '/img/customer/partner/3.png';
+const Partner4 = '/img/customer/partner/4.png';
 
 
 export default function CustomerComment() {
