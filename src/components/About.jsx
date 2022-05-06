@@ -5,21 +5,20 @@ export default function About() {
     <div>
         {/* <!-- Cirlce Starts --> */}
 <div id="about"  className="container spacer about">
-<h2 className="text-center wowload fadeInUp">Creative digital agency based on London</h2>  
+<h2 className="text-center wowload fadeInUp">Hakkımızda</h2>  
   <div className="row">
   <div className="col-sm-6 wowload fadeInLeft">
-    <h4><i className="fa fa-paint-brush"></i> Design</h4>
-    <p>Creative digital agency for sleek and sophisticated solutions for mobile, websites and software designs, lead by passionate and uber progressive team that lives and breathes design. Creative digital agency for sleek and sophisticated solutions for mobile, websites and software designs.</p>
+    <h4><i className="fa fa-paint-brush"></i> Lorem</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nisi doloribus voluptatum minus saepe placeat, cum facilis illo quia dolore nostrum quo beatae soluta assumenda. Voluptates beatae similique recusandae illum.</p>
     
 
   </div>
   <div className="col-sm-6 wowload fadeInRight">
-  <h4><i className="fa fa-code"></i> Frontend & Backend Development</h4>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>    
+  <h4><i className="fa fa-code"></i> Lorem</h4>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>    
   </div>
   </div>
-
-  <div className="process">
+  {/* <div className="process">
   <h3 className="text-center wowload fadeInUp">Process</h3>
 	<ul className="row text-center list-inline  wowload bounceInUp">
    		<li>
@@ -38,7 +37,7 @@ export default function About() {
             <span><i className="fa fa-cloud-upload"></i><b>Deliver</b></span>
         </li>
   	</ul>
-  </div>
+  </div> */}
 </div>
 {/* <!-- #Cirlce Ends --> */}
     </div>
