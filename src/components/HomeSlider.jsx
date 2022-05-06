@@ -7,6 +7,9 @@ import Logo3 from '../../public/img/logobig.png';
 
 
 export default class HomeSlider extends Component {
+  constructor(props){
+    super(props);
+  }
 
 
   render() {

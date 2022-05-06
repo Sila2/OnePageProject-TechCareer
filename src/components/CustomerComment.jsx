@@ -13,7 +13,7 @@ export default function CustomerComment() {
   return (
     <div>
         <div id="partners" className="container spacer ">
-	        <h2 className="text-center  wowload fadeInUp">Some of our happy clients</h2>
+	        <h2 className="text-center  wowload fadeInUp">Müşteri Yorumları</h2>
             <div className="clearfix">
                 <div className="col-sm-6 partners  wowload fadeInLeft">
                     <img src={Partner1}  alt="partners"/>

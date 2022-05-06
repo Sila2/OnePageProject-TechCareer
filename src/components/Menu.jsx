@@ -11,6 +11,13 @@ import Menu8 from '../../public/img/menu/8.png'
 
 
 export default class Menu extends Component {
+    constructor(props){
+        super(props);
+      }
+
+      addButton(){
+          
+      }
 
     
   render() {
@@ -21,66 +28,67 @@ export default class Menu extends Component {
     <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu1} alt="img01"/>
         <figcaption>
-            <h2>Adidas</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu1} title="1" data-gallery>View more</a></p>            
+            {/* <a href={Menu1} title="1" data-gallery>Sepete Ekle</a></p>  */}
+            <button className="btn btn-outline-secondary" onClick={this.addButton}>Sepete Ekle</button>          
         </figcaption>
     </figure>
      <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu2} alt="img01"/>
         <figcaption>
-            <h2>Jeans</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu2} title="1" data-gallery>View more</a></p>            
+            <a href={Menu2} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
      <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu3} alt="img01"/>
         <figcaption>
-            <h2>Metal</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu3} title="1" data-gallery>View more</a></p>            
+            <a href={Menu3} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
      <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu4} alt="img01"/>
         <figcaption>
-            <h2>Vintage</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu4} title="1" data-gallery>View more</a></p>            
+            <a href={Menu4} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
      <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu5} alt="img01"/>
         <figcaption>
-            <h2>Typers</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu5} title="1" data-gallery>View more</a></p>            
+            <a href={Menu5} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
      
      <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu6} alt="img01"/>
         <figcaption>
-            <h2>Marco</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu6} title="1" data-gallery>View more</a></p>            
+            <a href={Menu6} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
     <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu7} alt="img01"/>
         <figcaption>
-            <h2>Chinese</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu7} title="1" data-gallery>View more</a></p>            
+            <a href={Menu7} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
     <figure className="effect-oscar  wowload fadeInUp">
         <img src={Menu8} alt="img01"/>
         <figcaption>
-            <h2>Dicrap</h2>
+            <h2>Hamburger</h2>
             <p>Lily likes to play with crayons and pencils<br/>
-            <a href={Menu8} title="1" data-gallery>View more</a></p>            
+            <a href={Menu8} title="1" data-gallery>Sepete Ekle</a></p>            
         </figcaption>
     </figure>
 
