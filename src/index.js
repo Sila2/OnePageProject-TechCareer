@@ -9,6 +9,7 @@ import HomeSlider from './components/HomeSlider';
 import About from './components/About';
 import Menu from './components/Menu';
 import CustomerComment from './components/CustomerComment';
+import Footer from './components/Footer';
 
 
 
@@ -19,8 +20,9 @@ root.render(
     <Header/>
     <HomeSlider/>
     <About/>
-    <Menu menu1="10 TL" menu2="15 TL"/>
+    <Menu/>
     <CustomerComment/>
+    <Footer/>
   </React.StrictMode>
 );
 
