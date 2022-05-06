@@ -1,0 +1,47 @@
+<div className="topbar animated fadeInLeftBig"></div>
+<div className="navbar-wrapper">
+      <div className="container">
+        <div className="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+          <div className="container">
+            <div className="navbar-header">
+              {/* <!-- Logo Starts --> */}
+              <a className="navbar-brand" href="#home"><img src={Logo} alt="logo"/></a>
+              {/* <!-- #Logo Ends --> */}
+
+              <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+            </div>
+
+
+            {/* <!-- Nav Starts --> */}
+            <div className="navbar-collapse  collapse">
+              {/* <ul className="nav navbar-nav navbar-right scroll"> */}
+              <ul className="nav navbar-nav me-auto mt-2 mt-lg-0 scroll">
+                 <li className="active"><a href="#home">Anasayfa</a></li>
+                 <li ><a href="#about">Hakkımızda</a></li>
+                 <li ><a href="#works">Menü</a></li>
+                 <li ><a href="#partners">Yorumlar</a></li>              
+              </ul>
+
+              <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li className="nav-item">
+                    <a className="nav-link" data-bs-toggle="modal" data-bs-target="#register" href="#">
+                      <i className="fa fa-user">uye girisi</i></a>
+                </li>
+
+                {/* <!-- uye ol --> */}
+                </ul>
+
+                {/* sepet */}
+                {/* dropdown menu */}
+               
+            </div>
+            {/* <!-- #Nav Ends --> */}
+          </div>
+        </div>
+      </div>
+    </div>
