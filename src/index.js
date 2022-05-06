@@ -11,13 +11,15 @@ import Menu from './components/Menu';
 import CustomerComment from './components/CustomerComment';
 
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
     <HomeSlider/>
     <About/>
-    <Menu/>
+    <Menu menu1="10 TL" menu2="15 TL"/>
     <CustomerComment/>
   </React.StrictMode>
 );
