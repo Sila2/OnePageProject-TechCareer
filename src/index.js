@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import HomeSlider from './components/HomeSlider';
+import About from './components/About';
+import Menu from './components/Menu';
+import CustomerComment from './components/CustomerComment';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <HomeSlider/>
+    <About/>
+    <Menu/>
+    <CustomerComment/>
   </React.StrictMode>
 );
 
